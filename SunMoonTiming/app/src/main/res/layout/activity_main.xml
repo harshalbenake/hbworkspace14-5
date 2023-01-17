@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <include
+            android:id="@+id/layout_daytime1"
+            layout="@layout/item_daytime" />
+
+        <include
+            android:id="@+id/layout_daytime2"
+            layout="@layout/item_daytime" />
+
+        <include
+            android:id="@+id/layout_daytime3"
+            layout="@layout/item_daytime" />
+        <include
+            android:id="@+id/layout_daytime4"
+            layout="@layout/item_daytime" />
+
+    </LinearLayout>
+</LinearLayout>

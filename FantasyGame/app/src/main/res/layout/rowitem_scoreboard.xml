@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/tv_score_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:layout_weight="45" />
+
+    <TextView
+        android:id="@+id/tv_score_value1"
+        android:layout_width="0dp"
+        android:layout_margin="2dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="10" />
+
+    <TextView
+        android:id="@+id/tv_score_value2"
+        android:layout_width="0dp"
+        android:layout_margin="2dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="10" />
+
+    <TextView
+        android:id="@+id/tv_score_value3"
+        android:layout_margin="2dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="10" />
+
+    <TextView
+        android:id="@+id/tv_score_value4"
+        android:layout_width="0dp"
+        android:layout_margin="2dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="10" />
+
+    <TextView
+        android:id="@+id/tv_score_value5"
+        android:layout_width="0dp"
+        android:layout_margin="2dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="15" />
+</LinearLayout>

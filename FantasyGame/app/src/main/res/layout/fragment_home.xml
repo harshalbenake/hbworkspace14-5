@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activities.ui.main.TeamDetailsFragment">
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+       />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/rg_match_type">
+
+        <RadioButton
+            android:id="@+id/rb_international"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="International"
+            android:checked="false"/>
+
+        <RadioButton
+            android:id="@+id/rb_league"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="League"
+            android:checked="false"/>
+        <RadioButton
+            android:id="@+id/rb_domestic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Domestic"
+            android:checked="false"/>
+        <RadioButton
+            android:id="@+id/rb_women"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Women"
+            android:checked="false" />
+    </RadioGroup>
+    <ListView
+        android:id="@+id/lv_team_list"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
